@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/GameUI.uss?fileID=7433441132597879392&amp;guid=c12e0928c9855034484b5a88ff39c488&amp;type=3#GameUI"/>
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenu.uss?fileID=7433441132597879392&amp;guid=fbc10ae187800a444bfbbba4c46f9b9a&amp;type=3#MainMenu"/>
+    <ui:VisualElement name="GameOverContainer" style="flex-grow: 1; -unity-background-image-tint-color: rgb(89, 89, 89); background-color: rgba(0, 0, 0, 0.53); justify-content: center; align-items: center;">
+        <ui:VisualElement name="Container" style="flex-grow: 1; width: 50%; justify-content: center; align-items: center;">
+            <ui:Label text="Game Over" name="GameOverLabel" class="Title"/>
+            <ui:Button text="Retry" name="RetryButton" class="pause-button"/>
+            <ui:Button text="Exit" name="ExitButton" class="pause-button"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

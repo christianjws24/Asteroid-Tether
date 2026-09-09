@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenu.uss?fileID=7433441132597879392&amp;guid=fbc10ae187800a444bfbbba4c46f9b9a&amp;type=3#MainMenu"/>
+    <Style src="project://database/Assets/UI%20Toolkit/GameUI.uss?fileID=7433441132597879392&amp;guid=c12e0928c9855034484b5a88ff39c488&amp;type=3#GameUI"/>
+    <ui:VisualElement name="PauseContainer" style="flex-grow: 1; -unity-background-image-tint-color: rgb(43, 43, 43); background-image: none; background-color: rgba(0, 0, 0, 0.5); align-items: center; display: flex;">
+        <ui:VisualElement name="ButtonsContainer" style="flex-grow: 1; width: 40%; justify-content: center;">
+            <ui:Label text="Pause" name="PauseTitle" class="Title" style="-unity-text-align: upper-center;"/>
+            <ui:Button text="Resume" name="ResumeButton" class="pause-button"/>
+            <ui:Button text="Exit" name="ExitButton" class="pause-button"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

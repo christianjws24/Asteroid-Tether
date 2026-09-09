@@ -1,0 +1,30 @@
+<UnityEngine.UIElements.UXML editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenu.uss?fileID=7433441132597879392&amp;guid=fbc10ae187800a444bfbbba4c46f9b9a&amp;type=3#MainMenu"/>
+    <UnityEngine.UIElements.VisualElement name="MainMenu" class="menu-screen" style="display: flex;">
+        <UnityEngine.UIElements.VisualElement name="TitleContainer" style="flex-grow: 1; justify-content: center;">
+            <UnityEngine.UIElements.Label text="Asteroid &#10;" name="Title" class="Title"/>
+        </UnityEngine.UIElements.VisualElement>
+        <UnityEngine.UIElements.VisualElement name="FooterContainer" style="flex-grow: 1; flex-direction: row;">
+            <UnityEngine.UIElements.VisualElement name="ButtonsContainer" style="flex-grow: 1; border-left-color: rgb(255, 255, 255); border-left-width: 0; justify-content: center; align-self: stretch; align-items: stretch;">
+                <UnityEngine.UIElements.Button text="Play" name="PlayButton" class="menu-button" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;"/>
+                <UnityEngine.UIElements.Button text="Options" name="OptionsButton" class="menu-button" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; display: none;"/>
+                <UnityEngine.UIElements.Button text="Exit" name="ExitButton" class="menu-button" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;"/>
+            </UnityEngine.UIElements.VisualElement>
+        </UnityEngine.UIElements.VisualElement>
+    </UnityEngine.UIElements.VisualElement>
+    <UnityEngine.UIElements.VisualElement name="OptionsMenu" class="menu-screen" style="display: none;">
+        <UnityEngine.UIElements.VisualElement name="TitleContainer" style="flex-grow: 1; justify-content: center;">
+            <UnityEngine.UIElements.Label text="options" name="Title" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/techno_hideo.ttf?fileID=12800000&amp;guid=5dbf5bd4c6db87840bf05660d04d0f91&amp;type=3#techno_hideo&quot;); font-size: 120px; color: rgb(0, 157, 255);"/>
+        </UnityEngine.UIElements.VisualElement>
+        <UnityEngine.UIElements.VisualElement name="FooterContainer" style="flex-grow: 1; flex-direction: row;">
+            <UnityEngine.UIElements.VisualElement name="ButtonsContainer" style="flex-grow: 1; border-left-color: rgb(255, 255, 255); border-left-width: 0; justify-content: center; align-self: stretch; align-items: stretch;">
+                <UnityEngine.UIElements.Button text="Resolution: " name="ResolutionButton" class="menu-button" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;"/>
+                <UnityEngine.UIElements.Button text="Difficulty" name="DifficultyButton" class="menu-button" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;"/>
+                <UnityEngine.UIElements.Button text="volume" name="VolumeButton" class="menu-button" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;"/>
+            </UnityEngine.UIElements.VisualElement>
+            <UnityEngine.UIElements.VisualElement name="BackContainer" style="flex-grow: 1; -unity-text-align: upper-right; justify-content: flex-end; align-items: auto;">
+                <UnityEngine.UIElements.Button text="Back&#10;" name="BackButton" class="menu-button"/>
+            </UnityEngine.UIElements.VisualElement>
+        </UnityEngine.UIElements.VisualElement>
+    </UnityEngine.UIElements.VisualElement>
+</UnityEngine.UIElements.UXML>

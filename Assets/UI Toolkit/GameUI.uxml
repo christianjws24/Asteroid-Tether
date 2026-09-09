@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="GameUIContainer" style="flex-grow: 1; padding-top: 40px; padding-right: 40px; padding-bottom: 40px; padding-left: 40px;">
+        <ui:Label text="" name="Score" style="color: rgb(255, 255, 255); -unity-font-definition: url(&quot;project://database/Assets/Fonts/techno_hideo.ttf?fileID=12800000&amp;guid=5dbf5bd4c6db87840bf05660d04d0f91&amp;type=3#techno_hideo&quot;); font-size: 50px; margin-bottom: 30px;"/>
+        <ui:Label text="" name="HighScore" style="color: rgb(255, 255, 255); -unity-font-definition: url(&quot;project://database/Assets/Fonts/techno_hideo.ttf?fileID=12800000&amp;guid=5dbf5bd4c6db87840bf05660d04d0f91&amp;type=3#techno_hideo&quot;); font-size: 50px;"/>
+    </ui:VisualElement>
+</ui:UXML>

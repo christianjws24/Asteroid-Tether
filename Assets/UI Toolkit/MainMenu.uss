@@ -1,0 +1,59 @@
+:root {
+}
+
+.menu-button {
+    -unity-font-definition: url("project://database/Assets/Fonts/techno_hideo.ttf?fileID=12800000&guid=5dbf5bd4c6db87840bf05660d04d0f91&type=3#techno_hideo");
+    font-size: 50px;
+    background-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    background-size: 100% 100%;
+    width: 40%;
+    height: 20%;
+    transition-duration: 0.3s;
+    margin-top: 10px;
+    margin-right: 0;
+}
+
+.menu-button:hover {
+    width: 50%;
+    background-color: rgb(0, 157, 255);
+}
+
+.menu-screen {
+    flex-grow: 1;
+    background-image: url("project://database/Assets/Images/Roboxel-SpaceBackground09.png?fileID=2800000&guid=fd48cd864e657ec44a4ed314aa87d198&type=3#Roboxel-SpaceBackground09");
+    -unity-background-image-tint-color: rgb(84, 84, 84);
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+.Title {
+    -unity-font-definition: url("project://database/Assets/Fonts/techno_hideo.ttf?fileID=12800000&guid=5dbf5bd4c6db87840bf05660d04d0f91&type=3#techno_hideo");
+    font-size: 120px;
+    color: rgb(0, 157, 255);
+}
+
+
+
+
+
+
+
+
